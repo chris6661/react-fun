@@ -1,9 +1,12 @@
 import React from 'react'
+import Game from './components/Game'; 
 
 const App = () => {
   return (
     <div>
-      <p>Tic-Tac-Toe</p>
+      
+      <Game />
+      
     </div>
   )
 }
